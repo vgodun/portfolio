@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  thread,
   jobit,
   tripguide,
   threejs,
@@ -178,12 +178,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Thread",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A social media platform that allows users to share their thoughts and ideas with the world, and discover what others are thinking about as well.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -195,8 +195,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: thread,
+    source_code_link: "https://thread-blond.vercel.app/",
   },
   {
     name: "Job IT",
