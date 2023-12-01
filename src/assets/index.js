@@ -27,7 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import thread from "./thread.png";
+import thread from "./Thread.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
