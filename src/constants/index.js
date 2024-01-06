@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   thread,
-  jobit,
+  store,
   tripguide,
   threejs,
 } from "../assets";
@@ -72,10 +72,10 @@ const technologies = [
   //     name: "Node JS",
   //     icon: nodejs,
   // },
-  // {
-  //     name: "MongoDB",
-  //     icon: mongodb,
-  // },
+  {
+      name: "MongoDB",
+      icon: mongodb,
+  },
   // {
   //     name: "Three JS",
   //     icon: threejs,
@@ -199,25 +199,25 @@ const projects = [
     source_code_link: "https://thread-blond.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A full-stack e-commerce application that allows users to browse and purchase products. It also features a dashboard for administrators to manage products, orders.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "prisma",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: store,
+    source_code_link: "https://store-seven-dun.vercel.app/",
   },
   {
     name: "Trip Guide",
